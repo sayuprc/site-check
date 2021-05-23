@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  python:
+    build: ./infra/python
+    image: site_check
+    container_name: site_check
+    tty: true
+    volumes: 
+      - ./app:/usr/src

@@ -1,0 +1,4 @@
+app/image/*
+app/__pycache__
+app/.env
+app/target_urls
